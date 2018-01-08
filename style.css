@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
 html { overflow-y: scroll; }
 body {
     background-color: #333;
     color: #eee;
     font-size: 18pt;
-    font-family: Palatino, Georgia, serif;
+    font-family: 'Crimson Text', Palatino, Georgia, serif;
     font-weight: 300;
     font-kerning: auto;
     letter-spacing: -0.25pt;
