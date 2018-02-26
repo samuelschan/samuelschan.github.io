@@ -2,8 +2,8 @@
 
 html { overflow-y: scroll; }
 body {
-    background-color: #333;
-    color: #eee;
+    background-color: #0b3c5d /*#333*/;
+    color: #efefef /*#eee*/;
     font-size: 16pt;
     font-family: 'Josefin Sans', Palatino, serif;
     font-weight: 300;
@@ -17,9 +17,9 @@ body {
     margin-top: 2em;
 }
 
-a { color: #77dd77; text-decoration: none; }
-a:hover { color: #aaffaa; }
-h1 { color: #77dd77; font-family: Raleway, Helvetica, sans-serif; font-weight: 100; text-transform: uppercase;}
+a { color: #d9b310 /*#77dd77*/; text-decoration: none; }
+a:hover { color: #328cc1; }
+h1 { color: #d9b310 /*#77dd77*/; font-family: Raleway, Helvetica, sans-serif; font-weight: 100; text-transform: uppercase;}
 ol { margin: 0.1em 0 0 0; }
 .heading { font-weight: 400; margin: 2em 0 0 0;}
 .subheading { text-decoration: underline; margin: 0.5em 0 0 0; }
