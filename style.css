@@ -2,8 +2,8 @@
 
 html { overflow-y: scroll; }
 body {
-    background-color: #0b3c5d;
-    color: #efefef;
+    background-color: #3e4245 ;
+    color: #ccc;
     font-size: 16pt;
     font-family: 'Josefin Sans', Palatino, serif;
     font-weight: 300;
@@ -17,16 +17,16 @@ body {
     margin-top: 2em;
 }
 
-a { color: /*#328cc1*/ #d9b310; text-decoration: none; }
-a:hover { /*text-decoration: underline;*/ color: #999; }
-h1 { color: /*#328cc1 #77dd77*/ #d9b310; font-family: 'IBM Plex Sans', Helvetica, sans-serif; font-weight: 100; padding-top: 1em; padding-bottom: 0.5em; }
+a { color: #eeffff /*#d9b310*/ ; text-decoration: none; }
+a:hover { text-decoration: none; color: #99ced3;}
+h1 { color: #99ced3 /*#328cc1 #77dd77 #d9b310 */; font-family: 'IBM Plex Sans', Helvetica, sans-serif; font-weight: 100; padding-top: 0em; padding-bottom: 0.5em; font-size: 3.5em;}
 ol { margin: 0.1em 0 0 0; }
-.heading { font-weight: 400; margin: 2em 0 0 0;}
-.subheading { text-decoration: underline; margin: 0.5em 0 0 0; }
+.heading { color: #aadfe4; font-weight: 300; margin: 2em 0 0 0;}
+.subheading {  text-decoration: underline; margin: 0.5em 0 0 0; }
 .content { margin: 0.1em 0 0 0; }
 .hanging { margin: 0.1em 0 0 3em; text-indent: -3em; }
 .indent { margin: 0.1em 0 0 0; text-indent: 3em; }
 .alignright { float: right; }
 .red { color: #ff6961; }
 
-img { float: left; padding-right: 2em; padding-bottom: 3em; }
+img { float: left; padding-right: 2em; padding-bottom: 3em;  filter: brightness(0.9);}
