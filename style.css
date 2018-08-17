@@ -19,7 +19,7 @@ body {
 
 a { color: #eeffff /*#d9b310*/ ; text-decoration: none; }
 a:hover { text-decoration: none; color: #99ced3;}
-h1 { color: #99ced3 /*#328cc1 #77dd77 #d9b310 */; font-family: 'IBM Plex Sans', Helvetica, sans-serif; font-weight: 100; padding-top: 0em; padding-bottom: 0.5em; font-size: 3.5em;}
+h1 { color: #99ced3 /*#328cc1 #77dd77 #d9b310 */; font-family: 'IBM Plex Sans', Helvetica, sans-serif; font-weight: 100; padding-top: 0em; padding-bottom: 0.5em; font-size: 3em;}
 ol { margin: 0.1em 0 0 0; }
 .heading { color: #aadfe4; font-weight: 400; margin: 2em 0 0 0;}
 .subheading { font-style: italic; margin: 0.5em 0 0 0; }
