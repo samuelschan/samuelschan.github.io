@@ -1,33 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400|IBM+Plex+Sans:100');
+@import url('https://fonts.googleapis.com/css?family=Spectral:400,400i,600,600i|Raleway:300');
 
 html { overflow-y: scroll; }
 body {
-    background-color: #3e4245 ;
-    color: #ccc;
-    font-size: 16pt;
-    font-family: 'Josefin Sans', Palatino, serif;
-    font-weight: 300;
+    background-color: #495462 /*#3e4245*/ ;
+    color: #fefefe /* #ccc */;
+    font-size: 20px;
+    font-family: Spectral, 'Open Sans', Palatino, serif;
+    font-weight: 400;
     font-kerning: auto;
-    letter-spacing: -0.3pt;
+    letter-spacing: 0pt;
     padding: 1em;
-    line-height: 1.3;
-    max-width: 40em;
+    line-height: 1.4;
+    max-width: 34em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
 }
 
-a { color: #eeffff /*#d9b310*/ ; text-decoration: none; }
-a:hover { text-decoration: none; color: #99ced3;}
-h1 { color: #99ced3 /*#328cc1 #77dd77 #d9b310 */; font-family: 'IBM Plex Sans', Helvetica, sans-serif; font-weight: 100; padding-top: 0em; padding-bottom: 0.5em; font-size: 3em;}
+a { color: #eeeeee /*#eeffff #d9b310*/ ; text-decoration: none; }
+a:hover { opacity:.5;}
+h1 { /* #99cec3 #328cc1 #77dd77 #d9b310 */; font-family: Raleway, Helvetica, sans-serif; font-weight: 300; padding-top: 2.5em; padding-bottom: 2em; font-size: 1.3em;}
 ol { margin: 0.1em 0 0 0; }
-.heading { color: #aadfe4; font-weight: 400; margin: 2em 0 0 0;}
+.heading { color: /* #aadfe4 */; font-weight: 600; margin: 2em 0 0 0;}
 .subheading { font-style: italic; margin: 0.5em 0 0 0; }
 .content { margin: 0.1em 0 0 0; }
-.bold {font-weight: 400;}
+.bold {font-weight: 600;}
 .hanging { margin: 0.1em 0 0 3em; text-indent: -3em; }
 .indent { margin: 0.1em 0 0 0; text-indent: 3em; }
 .alignright { float: right; }
 .red { color: #ff6961; }
 
-img { float: left; padding-right: 2em; padding-bottom: 3em;  filter: brightness(0.9);}
+img { float: left; padding-right: 2em; padding-bottom: 3em;  filter: brightness(1);}
+
+#side-menu {
+  /*
+  width: 40em;
+  padding: 1em;*/
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  /*transition: ease-in-out all .2s;*/
+  display: table;
+}
+
+li {
+  /*width: 100%;
+  height: 100%; */
+  display: table-cell;
+}
+
+.side-menu__label {
+  /*float: left;
+  width: 40em; */
+  opacity: 0;
+  position: absolute;
+  /*transition: ease-in-out all .2s;*/
+}
+/*
+#side-menu:hover {
+  width: 0em;
+}
+*/
+#side-menu:hover .side-menu__label {
+  opacity: 1;
+}
