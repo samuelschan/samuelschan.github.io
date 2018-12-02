@@ -4,7 +4,7 @@ html { overflow-y: scroll; }
 body {
     background-color: #495462 /*#3e4245*/ ;
     color: #fefefe /* #ccc */;
-    font-size: 24px;
+    font-size: 23px;
     font-family: Raleway, Palatino, serif;
     font-weight: 300;
     font-kerning: auto;
