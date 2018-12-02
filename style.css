@@ -1,25 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Spectral:400,400i,600,600i|Raleway:300');
+@import url('https://fonts.googleapis.com/css?family=Spectral:400,400i,600,600i|Raleway:200,300');
 
 html { overflow-y: scroll; }
 body {
     background-color: #495462 /*#3e4245*/ ;
     color: #fefefe /* #ccc */;
-    font-size: 20px;
-    font-family: Spectral, Palatino, serif;
-    font-weight: 400;
+    font-size: 22px;
+    font-family: Raleway, Spectral, Palatino, serif;
+    font-weight: 300;
     font-kerning: auto;
     letter-spacing: 0pt;
     padding: 1em;
     line-height: 1.4;
-    max-width: 34em;
-    margin-left: auto;
+    max-width: 35em;
+    margin-left: 3em;
     margin-right: auto;
     margin-top: 2em;
 }
 
-a { color: #eeeeee /*#eeffff #d9b310*/ ; text-decoration: none; }
+a { color: #fefefe /*#eeffff #d9b310*/ ; text-decoration: none; }
 a:hover { opacity:.5;}
-h1 { /* #99cec3 #328cc1 #77dd77 #d9b310 */; font-family: Raleway, Helvetica, sans-serif; font-weight: 300; padding-top: 2.5em; padding-bottom: 2em; font-size: 1.3em;}
+h1 { /* #99cec3 #328cc1 #77dd77 #d9b310 */; font-family: Raleway, Helvetica, sans-serif; font-weight: 300; padding-top: 1em; padding-bottom: 1em; font-size: 1em;}
 ol { margin: 0.1em 0 0 0; }
 .heading { color: /* #aadfe4 */; font-weight: 600; margin: 2em 0 0 0;}
 .subheading { font-style: italic; margin: 0.5em 0 0 0; }
