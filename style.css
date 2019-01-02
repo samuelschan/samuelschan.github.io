@@ -55,9 +55,9 @@ img { float: left; padding-right: 2em; padding-bottom: 3em;  filter: brightness(
 /* Main content */
 .main { padding-top: 13em; margin-left: 1em; margin-right: 1em; margin-bottom: 5em;}
 
-@media (max-width: 749px) {
+@media (max-width: 800px) {
     body {
-        font-size: 1.25em;
+        font-size: 1.3em;
     }
 }
 
