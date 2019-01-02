@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700');
+
+html { font-size: 100%; overflow-y: scroll; display: table; margin: auto;}
+body {
+    background-color: #ffffff /*#495462 #3e4245*/ ;
+    color: #1e2022 /*#fefefe*/;
+    font-size: 1em;
+    font-family: Karla, Palatino, serif;
+    font-weight: 400;
+    font-kerning: auto;
+    letter-spacing: 0pt;
+    padding: 0em;
+    line-height: 1.4;
+    width: 42em;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+a { color: #1e2022 /*#81909a #fefefe #eeffff #d9b310*/; text-decoration: underline; }
+a:hover { opacity:.5; }
+.heading { font-weight: 700; margin: 2em 0 0 0;}
+.subheading { font-style: italic; margin: 1em 0 0 0; }
+.content { margin: 0em 0 0 0; }
+.hanging { margin: 0.1em 0 0 3em; text-indent: -3em; }
+.indent { margin: 0.1em 0 0 0; text-indent: 3em; }
+.red { color: #ff6961; }
+.title { text-decoration: none; }
+
+img { float: left; padding-right: 2em; padding-bottom: 3em; filter: brightness(1);}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  background: #ffffff;
+  padding-top: 4em;
+  margin-left: 1em;
+  padding-bottom: 1.5em;
+  top: 0em;
+  width: 100%;
+}
+.navbar a { padding-top: 0.5em; padding-right: 0.5em; }
+
+.main { padding-top: 13em; margin-left: 1em; margin-right: 1em; margin-bottom: 5em;}
