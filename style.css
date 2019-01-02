@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700');
 
-html { overflow-y: scroll; display: table; margin: auto;}
+html { font-size: 100%; overflow-y: scroll; display: table; margin: auto;}
 body {
     background-color: #ffffff /*#495462 /*#3e4245*/ ;
     color: #1e2022 /*#fefefe /* #ccc */;
-    font-size: 16px;
+    font-size: 1em;
     font-family: Karla, Palatino, serif;
     font-weight: 400;
     font-kerning: auto;
@@ -15,7 +15,7 @@ body {
     /*margin-left: 0em;
     margin-right: 0em;
     margin-top: 0em; */
-        display: table-cell;
+    display: table-cell;
     vertical-align: middle;
 }
 
