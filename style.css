@@ -2,9 +2,9 @@
 
 html { font-size: 100%; overflow-y: scroll; display: table; margin: auto;}
 body {
-    background-color: #ffffff /*#495462 /*#3e4245*/ ;
-    color: #1e2022 /*#fefefe /* #ccc */;
-    font-size: 1.5em;
+    background-color: #ffffff /*#495462 #3e4245*/ ;
+    color: #1e2022 /*#fefefe*/;
+    font-size: 1em;
     font-family: Karla, Palatino, serif;
     font-weight: 400;
     font-kerning: auto;
@@ -19,19 +19,18 @@ body {
     vertical-align: middle;
 }
 
-a { color: #1e2022 /*#81909a #fefefe #eeffff #d9b310*/ ; text-decoration: underline; }
-a:hover { opacity:.5;}
+a { color: #1e2022 /*#81909a #fefefe #eeffff #d9b310*/; text-decoration: underline; }
+a:hover { opacity:.5; }
 .heading { font-weight: 700; margin: 2em 0 0 0;}
 .subheading { font-style: italic; margin: 1em 0 0 0; }
 .content { margin: 0em 0 0 0; }
 .hanging { margin: 0.1em 0 0 3em; text-indent: -3em; }
 .indent { margin: 0.1em 0 0 0; text-indent: 3em; }
 .red { color: #ff6961; }
-.title {text-decoration: none;}
+.title { text-decoration: none; }
 
-img { float: left; padding-right: 2em; padding-bottom: 3em;  filter: brightness(1);}
+img { float: left; padding-right: 2em; padding-bottom: 3em; filter: brightness(1);}
 
-/* The navigation bar  */
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -42,27 +41,6 @@ img { float: left; padding-right: 2em; padding-bottom: 3em;  filter: brightness(
   top: 0em;
   width: 100%;
 }
+.navbar a { padding-top: 0.5em; padding-right: 0.5em; }
 
-/* Links inside the navbar */
-.navbar a {
-/*  float: left;
-  display: block;
-  text-align: center; */
-  padding-top: 0.5em;
-  padding-right: 0.5em;
-}
-
-/* Main content */
 .main { padding-top: 13em; margin-left: 1em; margin-right: 1em; margin-bottom: 5em;}
-
-@media (max-width: 800px) {
-    body {
-        font-size: 1.3em;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 1.5em;
-    }
-}
