@@ -4,7 +4,7 @@ html { font-size: 100%; overflow-y: scroll; display: table; margin: auto;}
 body {
     background-color: #ffffff /*#495462 #3e4245*/ ;
     color: #1e2022 /*#fefefe*/;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: Karla, Palatino, serif;
     font-weight: 400;
     font-kerning: auto;
