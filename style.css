@@ -21,6 +21,7 @@ body {
 
 a { color: #1e2022 /*#81909a #fefefe #eeffff #d9b310*/; text-decoration: underline; }
 a:hover { opacity:.5; }
+.firstheading { font-weight: 700; margin-bottom: 0}
 .heading { font-weight: 700; margin: 2em 0 0 0;}
 .subheading { font-style: italic; margin: 1em 0 0 0; }
 .content { margin: 0em 0 0 0; }
@@ -35,7 +36,7 @@ img { float: left; padding-right: 2em; padding-bottom: 3em; filter: brightness(1
   overflow: hidden;
   position: fixed;
   background: #ffffff;
-  padding-top: 4em;
+  padding-top: 2em;
   margin-left: 1em;
   padding-bottom: 1.5em;
   top: 0em;
@@ -43,4 +44,4 @@ img { float: left; padding-right: 2em; padding-bottom: 3em; filter: brightness(1
 }
 .navbar a { padding-top: 0.5em; padding-right: 0.5em; }
 
-.main { padding-top: 13em; margin-left: 1em; margin-right: 1em; margin-bottom: 5em;}
+.main { padding-top: 10em; margin-left: 1em; margin-right: 1em; padding-bottom: 5em;}
