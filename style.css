@@ -1,25 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700');
 
-html { font-size: 16px; overflow-y: scroll; display: table; /* margin: auto;*/}
+html { font-size: 16px; overflow-y: scroll; display: table; margin: auto;}
 body {
     background-color: #ffffff /*#495462 #3e4245*/ ;
-    color: #1e2022 /*#fefefe*/;
+    color: #1e2022;
     font-size: 1em;
-    font-family: Karla, Palatino, serif;
+    font-family: Karla, Helvetica, sans-serif;
     font-weight: 400;
     font-kerning: auto;
     letter-spacing: 0pt;
     padding: 0em;
     line-height: 1.4;
     width: 42em;
-    /*margin-left: 0em;
-    margin-right: 0em;
-    margin-top: 0em; */
     display: table-cell;
     vertical-align: middle;
 }
 
-a { color: #1e2022 /*#81909a #fefefe #eeffff #d9b310*/; text-decoration: underline; }
+a { color: #1e2022 /*#81909a #d9b310*/; text-decoration: underline; }
 a:hover { opacity:.5; }
 .firstheading { font-weight: 700; margin-bottom: 0}
 .heading { font-weight: 700; margin-top: 2em; margin-bottom: 0;}
