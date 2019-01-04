@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700');
 
-html { font-size: 16px; overflow-y: scroll; display: table; margin: auto;}
+html { font-size: 16px; overflow-y: scroll; display: table; }
 body {
     background-color: #ffffff /*#495462 #3e4245*/ ;
     color: #1e2022;
@@ -21,9 +21,9 @@ a:hover { opacity:.5; }
 .firstheading { font-weight: 700; margin-bottom: 0}
 .heading { font-weight: 700; margin-top: 2em; margin-bottom: 0;}
 .subheading { font-style: italic; margin-top: 1em; margin-bottom: 0; }
-.content { margin-top: 0em; margin-bottom: 0; }
-.hanging { margin-top: 0.1em; margin-bottom: 0; margin-left: 3em; text-indent: -3em; }
-.indent { margin-top: 0.1em; margin-bottom: 0; text-indent: 3em; }
+.content { margin-top: 0; margin-bottom: 0; }
+.hanging { margin-top: 0; margin-bottom: 0; text-indent: -3em; margin-left: 3em; }
+.indent { margin-top: 0; margin-bottom: 0; text-indent: 3em; }
 .red { color: #ff6961; }
 .title { text-decoration: none; }
 
