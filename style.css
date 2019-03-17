@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400|Karla:400,400i,700');
 
-html { font-size: 16px; overflow-y: scroll; display: table; }
+html { font-size: 17px; overflow-y: scroll; display: table; margin: auto;}
 body {
-    background-color: #ffffff /*#495462 #3e4245*/ ;
-    color: #1e2022;
+    background-color: #222222 /*#495462 #3e4245*/ ;
+    color: #bbbbbb;
     font-size: 1em;
     font-family: Karla, Helvetica, sans-serif;
     font-weight: 400;
     font-kerning: auto;
-    letter-spacing: 0pt;
+    letter-spacing: -0.2pt;
     padding: 0em;
     line-height: 1.4;
-    width: 42em;
+    width: 40em;
     display: table-cell;
     vertical-align: middle;
 }
 
-a { color: #1e2022 /*#81909a #d9b310*/; text-decoration: underline; }
-a:hover { opacity:.5; }
+a { color: #ffffff /*#1e2022 #d9b310*/; text-decoration: none; }
+a:hover { text-decoration: none;}
+.title { font-size: 4em; font-family: Quicksand; color: #ffffff; text-decoration: none; }
 .firstheading { font-weight: 700; margin-bottom: 0}
 .heading { font-weight: 700; margin-top: 2em; margin-bottom: 0;}
 .subheading { font-style: italic; margin-top: 1em; margin-bottom: 0; }
@@ -25,20 +26,19 @@ a:hover { opacity:.5; }
 .hanging { margin-top: 0; margin-bottom: 0; text-indent: -3em; margin-left: 3em; }
 .indent { margin-top: 0; margin-bottom: 0; text-indent: 3em; }
 .red { color: #ff6961; }
-.title { text-decoration: none; }
 
 img { float: left; padding-right: 2em; padding-bottom: 3em; filter: brightness(1);}
 
 .navbar {
   overflow: hidden;
   position: fixed;
-  background: #ffffff;
+  background: #222222;
   padding-top: 1.5em;
   margin-left: 1em;
-  padding-bottom: 1.5em;
+  padding-bottom: 0em;
   top: 0em;
   width: 100%;
 }
 .navbar a { padding-top: 0.5em; padding-right: 0.5em; }
 
-.main { padding-top: 9em; margin-left: 1em; margin-right: 1em; padding-bottom: 5em;}
+.main { padding-top: 12em; margin-left: 1em; margin-right: 1em; padding-bottom: 5em;}
