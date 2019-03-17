@@ -18,7 +18,7 @@ body {
 
 a { color: #ffffff /*#1e2022 #d9b310*/; text-decoration: none; }
 a:hover { text-decoration: none;}
-.title { font-size: 3em; font-family: Quicksand; color: #ffffff; text-decoration: none; }
+.title { font-size: 2.5em; font-family: Quicksand; color: #ffffff; text-decoration: none; }
 .firstheading { font-weight: 700; margin-bottom: 0}
 .heading { font-weight: 700; margin-top: 2em; margin-bottom: 0;}
 .subheading { font-style: italic; margin-top: 1em; margin-bottom: 0; }
