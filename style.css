@@ -1,24 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400|Karla:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400');
 
-html { font-size: 17px; overflow-y: scroll; display: table; margin: auto;}
+html { font-size: 16px; display: table; margin: auto;}
 body {
-    background-color: #222222 /*#495462 #3e4245*/ ;
-    color: #bbbbbb;
+    background-color: #f6f5f3 /*#495462 #3e4245*/ ;
+    color: #000030;
     font-size: 1em;
-    font-family: Karla, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-kerning: auto;
-    letter-spacing: -0.2pt;
+    letter-spacing: 0pt;
     padding: 0em;
-    line-height: 1.4;
+    line-height: 1.5;
     width: 40em;
     display: table-cell;
     vertical-align: middle;
+    overflow-y: scroll;
+    height: 101%;
 }
 
-a { color: #ffffff /*#1e2022 #d9b310*/; text-decoration: none; }
-a:hover { text-decoration: none;}
-.title { font-size: 3em; font-family: Quicksand; color: #ffffff; text-decoration: none; }
+a { color: #000030; /* #ff6961; background-color: #c4ffff; #1e2022 #d9b310*/; text-decoration: none; }
+a:hover { color: #0058b0; text-decoration: none; );
+background-size: 5.66px 5.66px; /* background-color: #76ffff; */}
+.title { font-family: Quicksand; font-size: 2.25em; text-decoration: none; background-color: #f6f5f3;}
 .firstheading { font-weight: 700; margin-bottom: 0}
 .heading { font-weight: 700; margin-top: 2em; margin-bottom: 0;}
 .subheading { font-style: italic; margin-top: 1em; margin-bottom: 0; }
@@ -27,18 +30,18 @@ a:hover { text-decoration: none;}
 .indent { margin-top: 0; margin-bottom: 0; text-indent: 3em; }
 .red { color: #ff6961; }
 
-img { float: left; padding-right: 2em; padding-bottom: 3em; filter: brightness(1);}
+img { float: left; padding-right: 2em; padding-bottom: 3em; filter: brightness(1); }
 
 .navbar {
   overflow: hidden;
   position: fixed;
-  background: #222222;
+  background: #f6f5f3;
   padding-top: 1.5em;
   margin-left: 1em;
   padding-bottom: 0em;
   top: 0em;
   width: 100%;
 }
-.navitem { padding-right: 2em; }
+.navitem { margin-right: 2em; }
 
 .main { padding-top: 12em; margin-left: 1em; margin-right: 1em; padding-bottom: 5em;}
