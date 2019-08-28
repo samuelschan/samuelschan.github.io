@@ -11,7 +11,7 @@ body {
     letter-spacing: 0pt;
     padding: 0em;
     line-height: 1.5;
-    width: 40em;
+    width: 60em;
     display: table-cell;
     vertical-align: middle;
     overflow-y: scroll;
@@ -30,7 +30,7 @@ background-size: 5.66px 5.66px; /* background-color: #76ffff; */}
 .indent { margin-top: 0; margin-bottom: 0; text-indent: 3em; }
 .red { color: #ff6961; }
 
-img { float: left; padding-right: 2em; padding-bottom: 3em; filter: brightness(1); }
+img { float: left; padding-top: 1em; padding-right: 2em; padding-bottom: 2em; }
 
 .navbar {
   overflow: hidden;
