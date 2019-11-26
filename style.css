@@ -21,7 +21,7 @@ body {
 a { color: #000030; /* #ff6961; background-color: #c4ffff; #1e2022 #d9b310*/; text-decoration: none; }
 a:hover { color: #0058b0; text-decoration: none; );
 background-size: 5.66px 5.66px; /* background-color: #76ffff; */}
-.title { font-family: Quicksand; font-size: 2.25em; text-decoration: none; background-color: #f6f5f3;}
+.title { font-family: Quicksand, Helvetica, Arial, sans-serif; font-size: 2.25em; text-decoration: none; background-color: #f6f5f3;}
 .firstheading { font-weight: 700; margin-bottom: 0}
 .heading { font-weight: 700; margin-top: 2em; margin-bottom: 0;}
 .subheading { font-style: italic; margin-top: 1em; margin-bottom: 0; }
