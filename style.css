@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400|Crimson+Text:400,400i');
 
-html { font-size: 16px; display: table; margin: auto; }
+html { font-size: 18px; display: table; margin: auto; }
 body {
-    background-color: #fffceb /*#f6f5f3 #495462 #3e4245*/ ;
-    color: #080f15;
+    background-color: #fff /*#fffceb #f6f5f3 #495462 #3e4245*/ ;
+    color: #000 /*#080f15*/;
     font-size: 1em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Crimson Text', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-kerning: auto;
-    letter-spacing: 0pt;
+    text-rendering: optimizeLegibility;
     padding: 0em;
-    line-height: 1.5;
-    width: 60em;
+    line-height: 1.6;
+    width: 50em;
     display: table-cell;
     vertical-align: middle;
     overflow-y: scroll;
@@ -20,27 +20,29 @@ body {
 
 a { border-bottom: 1.5pt solid #080f15; color: #080f15; text-decoration: none; }
 a:hover { border-bottom: none; text-decoration: none; /*background-size: 5.66px 5.66px;*/ }
-.title { font-family: Quicksand, Helvetica, Arial, sans-serif; font-size: 2.25em; text-decoration: none; background-color: #fffceb;}
-.firstheading { font-weight: 700; margin-bottom: 0}
-.heading { font-weight: 700; margin-top: 2em; margin-bottom: 0;}
+.title { font-family: Oswald, Helvetica, Arial, sans-serif; font-size: 2.25em; text-decoration: none; }
+.firstheading { font-family: Oswald; font-weight: 400; margin-bottom: 0}
+.heading { font-family: Oswald; font-weight: 400; margin-top: 2em; margin-bottom: 0;}
 .subheading { font-style: italic; margin-top: 1em; margin-bottom: 0; }
 .content { margin-top: 0; margin-bottom: 0; }
 .hanging { margin-top: 0; margin-bottom: 0; text-indent: -3em; margin-left: 3em; }
 .indent { margin-top: 0; margin-bottom: 0; text-indent: 3em; }
 .red { color: #ff6961; }
 
-img { float: left; padding-top: 1em; padding-right: 5em; padding-bottom: 3em; }
+img { float: left; padding-top: .5em; padding-right: 5em; padding-bottom: 5em; }
 
 .navbar {
+  font-family: Oswald;
+  font-weight: 400;
   overflow: hidden;
   position: fixed;
-  background: #fffceb;
+  background: #fff /*#fffceb*/;
   padding-top: 1.5em;
   margin-left: 1em;
-  padding-bottom: 0em;
+  padding-bottom: 2em;
   top: 0em;
   width: 100%;
 }
 .navitem { margin-right: 2em; }
 
-.main { padding-top: 12em; margin-left: 1em; margin-right: 1em; padding-bottom: 5em;}
+.main { padding-top: 15em; margin-left: 1em; margin-right: 1em; padding-bottom: 5em;}
