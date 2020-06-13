@@ -27,7 +27,7 @@ a:hover { border-bottom: none; text-decoration: none; /*background-size: 5.66px 
 .content { margin-top: 0; margin-bottom: 0; }
 .hanging { margin-top: 0; margin-bottom: 0; text-indent: -3em; margin-left: 3em; }
 .indent { margin-top: 0; margin-bottom: 0; text-indent: 3em; }
-.pageend { margin-top: 0; margin-bottom: 5em; margin-left: 3em; }
+.pageend { margin-top: 0; margin-bottom: 5em; }
 .red { color: #ff6961; }
 
 img { float: left; padding-top: .5em; padding-right: 5em; padding-bottom: 5em; }
