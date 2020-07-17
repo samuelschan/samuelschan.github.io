@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400|Crimson+Text:400,400i');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 html { font-size: 18px; display: table; margin: auto; }
 body {
-    background-color: #fff /*#fffceb #f6f5f3 #495462 #3e4245*/ ;
+    background-color: #ffffff /*#fffceb #f6f5f3 #495462 #3e4245*/ ;
+    /*background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png")*/
     color: #000 /*#080f15*/;
     font-size: 1em;
-    font-family: 'Crimson Text', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-kerning: auto;
     text-rendering: optimizeLegibility;
@@ -20,9 +21,9 @@ body {
 
 a { border-bottom: 1.5pt solid #080f15; color: #080f15; text-decoration: none; }
 a:hover { border-bottom: none; text-decoration: none; /*background-size: 5.66px 5.66px;*/ }
-.title { font-family: Oswald, Helvetica, Arial, sans-serif; font-size: 2.25em; text-decoration: none; margin-bottom: 0.5em;}
-.firstheading { font-family: Oswald; font-weight: 400; margin-bottom: 0}
-.heading { font-family: Oswald; font-weight: 400; margin-top: 2em; margin-bottom: 0;}
+.title { font-weight: 500; font-size: 2.25em; text-decoration: none; margin-bottom: 0.5em;}
+.firstheading { font-weight: 500; margin-bottom: 0}
+.heading { font-weight: 500; margin-top: 2em; margin-bottom: 0;}
 .subheading { font-style: italic; margin-top: 1em; margin-bottom: 0; }
 .content { margin-top: 0; margin-bottom: 0; }
 .hanging { margin-top: 0; margin-bottom: 0; text-indent: -3em; margin-left: 3em; }
@@ -33,16 +34,17 @@ a:hover { border-bottom: none; text-decoration: none; /*background-size: 5.66px 
 img { float: left; padding-top: .5em; padding-right: 5em; padding-bottom: 5em; }
 
 .navbar {
-  font-family: Oswald;
-  font-weight: 400;
-  overflow: hidden;
-  position: fixed;
-  background: #fff /*#fffceb*/;
-  padding-top: 1.5em;
-  margin-left: 1em;
-  padding-bottom: 0.5em;
-  top: 0em;
-  width: 100%;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    overflow: hidden;
+    position: fixed;
+    background-color: #ffffff;
+    /*background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");*/
+    padding-top: 1.5em;
+    margin-left: 1em;
+    padding-bottom: 0.5em;
+    top: 0em;
+    width: 100%;
 }
 .navitem { margin-right: 2em; }
 
