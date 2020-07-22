@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
-
 html { font-size: 16px; display: table; margin: auto; }
 body {
     background-color: #ffffff /*#fffceb #f6f5f3 #495462 #3e4245*/ ;
     color: #000 /*#080f15*/;
     font-size: 1em;
-    font-family: Arial, 'Helvetica Neue', Helvetica, 'IBM Plex Sans', sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     font-kerning: auto;
     text-rendering: optimizeLegibility;
