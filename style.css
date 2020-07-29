@@ -1,26 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
 html { font-size: 16px; display: table; margin: auto; }
 body {
-    background-color: #ffffff /*#fffceb #f6f5f3 #495462 #3e4245*/ ;
-    color: #000 /*#080f15*/;
+    background-color: #fff;
+    color: #000;
     font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, 'IBM Plex Sans', chaparral-pro,  Helvetica, sans-serif;
     font-weight: normal;
     font-kerning: auto;
     text-rendering: optimizeLegibility;
     padding: 0em;
     line-height: 1.6;
-    width: 40em;
     display: table-cell;
     vertical-align: middle;
     overflow-y: scroll;
     height: 101%;
+    width: 40em;
 }
+.main { padding-top: 6em; margin-left: 1em; margin-right: 1em; padding-bottom: 2em;}
 
-a { border-bottom: 1.5pt solid #080f15; color: #080f15; text-decoration: none; }
-a:hover { border-bottom: none; text-decoration: none; }
-.title { font-weight: normal; }
-.firstheading { margin-bottom: 0}
-.heading { margin-top: 2em; margin-bottom: 0;}
+a:hover { border-bottom: 1.5pt solid #000000; text-decoration: none; }
+a { color: #000000; border-bottom: none; text-decoration: none; }
+hr { border: 0.75pt solid #000000; width: 25%; margin-top: 1em; margin-left: 0;}
+img { padding: 0; display: block; margin-left: auto; margin-right: auto; }
+
+.firstheading { margin-bottom: 0; font-weight: bold; }
+.heading { margin-top: 1em; margin-bottom: 0; font-weight: bold; }
 .subheading { margin-top: 1em; margin-bottom: 0; }
 .content { margin-top: 0; margin-bottom: 0; }
 .hanging { margin-top: 0; margin-bottom: 0; text-indent: -1em; margin-left: 1em; }
@@ -28,18 +33,32 @@ a:hover { border-bottom: none; text-decoration: none; }
 .pageend { margin-top: 0; margin-bottom: 5em; }
 .red { color: #ff6961; }
 
-img { padding-top: 1em; padding-bottom: 1em; }
-
+/* Navigation bar */
 .navbar {
     overflow: hidden;
     position: fixed;
     background-color: #ffffff;
-    padding-top: 1.5em;
+    padding-top: 3em;
     margin-left: 1em;
-    padding-bottom: 0.5em;
-    top: 0em;
-    width: 100%;
+    padding-bottom: 0em;
+    top: 0;
+    width: 39em;
 }
-.navitem { margin-right: 2em; }
+.title { margin-right: 1em;}
+ul { display: inline; }
+li { /*margin-bottom:0; padding-bottom: 0;*/ margin-right: 2em; display:inline; list-style:none; }
 
-.main { padding-top: 9em; margin-left: 1em; margin-right: 1em; padding-bottom: 1em;}
+/* Collapsible text */
+button { font-weight: bold; }
+.collapsible {
+    background-color: #fff;
+    cursor: pointer;
+    padding: 1em 0;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+}
+.active, .collapsible:hover { background-color: #fff; color: #000; }
+.collcontent { display: none; overflow: hidden; }
