@@ -1,0 +1,14 @@
+/* Collapsible text */
+
+.collapsible {
+    background-color: #fff;
+    cursor: pointer;
+    padding: 1em 0;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+}
+.active, .collapsible:hover { background-color: #fff; color: #000; }
+.collcontent { display: none; overflow: hidden; }
