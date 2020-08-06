@@ -43,7 +43,7 @@ img { padding: 1em; display: block; margin-left: auto; margin-right: auto; }
     margin-left: 1em;
     padding-bottom: 0em;
     top: 0;
-    width: 39em;
+    width: 100%;
 }
 .navitem { margin-right: 2em; }
 .title { font-size: 1em; }
