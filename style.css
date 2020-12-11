@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://use.typekit.net/vtu5zgc.css");
 
-html { font-size: 14px; display: table; margin: auto; }
+html { font-size: 18px; display: table; margin: auto; }
 body {
-    background-color: #fff;
-    color: #000;
+    background-color: #F0EEEC;
+    color: #1e1c1c;
     font-size: 1em;
-    font-family: Arial, 'IBM Plex Sans', chaparral-pro,  Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: futura-pt, Arial, Helvetica, sans-serif;
+    font-weight: 400;
     font-kerning: auto;
     text-rendering: optimizeLegibility;
-    padding: 0em;
+    padding: 1em;
     line-height: 1.6;
     display: table-cell;
     vertical-align: middle;
@@ -17,18 +17,18 @@ body {
     height: 101%;
     width: 40em;
 }
-.main { padding-top: 8em; margin-left: 1em; margin-right: 1em; padding-bottom: 2em;}
+.main { padding-top: 13em; margin-left: 1em; margin-right: 1em; padding-bottom: 2em;}
 
 a:hover { border-bottom: 1.5pt solid #000000; text-decoration: none; }
-a { color: #000000; border-bottom: none; text-decoration: none; }
-hr { border: 0.75pt solid #000000; width: 25%; margin-top: 1em; margin-left: 0;}
-img { padding: 0; /* display: block; margin-left: auto; margin-right: auto; */ }
+a { color: #000000; border-bottom: 1.5pt solid #cccccc;  text-decoration: none; }
+hr { border: 1pt solid #000000; width: 50px; margin-top: 5em; margin-bottom: 3em; margin-left: 0;}
+img { border-radius: 50%; margin-top: 4em; margin-bottom: 1em; padding: 0; /* display: block; margin-left: auto; margin-right: auto; */ }
 
-.firstheading { margin-bottom: 0; font-weight: bold; }
-.heading { margin-top: 1em; margin-bottom: 0; font-weight: bold; }
+.firstheading { margin-bottom: 0; font-weight: 500; }
+.heading { margin-top: 2em; margin-bottom: 0; font-weight: 500; }
 .subheading { margin-top: 1em; margin-bottom: 0; }
 .content { margin-top: 0; margin-bottom: 0; }
-.hanging { margin-top: 0; margin-bottom: 0; text-indent: -1em; margin-left: 1em; }
+.hanging { margin-top: 0; margin-bottom: 0; text-indent: -2em; margin-left: 2em; }
 .indent { margin-top: 0; margin-bottom: 0; text-indent: 1em; }
 .pageend { margin-top: 0; margin-bottom: 5em; }
 .red { color: #ff6961; }
@@ -39,14 +39,14 @@ img { padding: 0; /* display: block; margin-left: auto; margin-right: auto; */ }
     overflow: hidden;
     position: fixed;
     background-color: #ffffff;
-    padding-top: 1.5em;
+    padding-top: 10em;
     margin-left: 1em;
     padding-bottom: 0em;
     top: 0;
     width: 100%;
 }
 .navitem { margin-right: 2em; }
-.title { font-size: 1em; }
+.title { font-size: 2em; font-weight: 500; letter-spacing: -0.03em}
 
 /* Collapsible text */
 button { font-weight: bold; }
