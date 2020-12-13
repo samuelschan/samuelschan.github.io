@@ -17,7 +17,7 @@ body {
     height: 101%;
     width: 40em;
 }
-.main { padding-top: 13em; margin-left: 0em; margin-right: 0em; padding-bottom: 2em;}
+.main { padding-top: 8em; padding-bottom: 2em;}
 
 a:hover { border-bottom: 1.5pt solid #000000; text-decoration: none; }
 a { color: #000000; border-bottom: 1.5pt solid #cccccc;  text-decoration: none; }
