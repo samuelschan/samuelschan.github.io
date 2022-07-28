@@ -2,10 +2,10 @@
 
 html { font-size: 18px; display: table; margin: auto; }
 body {
-    background-color: #F0EEEC;
+    background-color:  #F0EEEC;
     color: #1e1c1c;
     font-size: 1em;
-    font-family: futura-pt, Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, futura-pt, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-kerning: auto;
     text-rendering: optimizeLegibility;
@@ -13,11 +13,12 @@ body {
     line-height: 1.6;
     display: table-cell;
     vertical-align: middle;
-    overflow-y: scroll;
+    overflow-y: scroll; 
     height: 101%;
-    width: 40em;
+    width: 40em;*/
 }
-.main { padding-top: 8em; padding-bottom: 2em;}
+.main { padding-top: 8em; padding-bottom: 2em;} */
+
 
 a:hover { border-bottom: 1.5pt solid #000000; text-decoration: none; }
 a { color: #000000; border-bottom: 1.5pt solid #cccccc;  text-decoration: none; }
